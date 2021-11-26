@@ -1,0 +1,118 @@
+body {
+
+  background-color: hsl(217, 54%, 11%);
+  display:grid;
+
+  margin: auto;
+}
+h2 {
+  margin: 20px;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+}
+h2:hover{
+  color: hsl(178, 100%, 50%);
+}
+p {
+  padding-left: 10px;
+  margin: 0;
+  color: hsl(215, 51%, 70%);
+
+}
+.card {
+  border-radius: 25px;
+  width: 40%;
+  height:70% ;
+  background-color: hsl(216, 50%, 16%);
+  margin:auto;
+  margin-top: 180px;
+  align-items: center;
+  display: inline-table;
+
+}
+
+@media screen and (min-width: 740px){
+
+.card {
+  max-width: 250px;
+
+}
+  }
+
+  @media screen and (max-width: 739px){
+
+  .card {
+    width: 80%;
+  }
+    }
+
+.cubix{
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    display: block;
+    justify-content: center;
+}
+.cubix:hover {
+  filter:hue-rotate(300deg);
+
+}
+
+.avatar {
+  width:30px;
+}
+
+  .lineone{
+  margin-left: 10px;
+  padding: 10px;
+}
+.card-left {
+  margin: 5px;
+  margin-left: 20px;
+  display: inline-flex;
+
+}
+
+.time {
+  color: hsl(178, 100%, 50%);
+  margin-right: 10px;
+  display: block;
+  margin: 0px;
+}
+
+.card-right {
+  margin: 5px;
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+}
+
+.days{
+  display: flex;
+  margin-right: 10px;
+}
+
+hr{
+  margin: 3px 10px 2px;
+  color: hsl(215, 51%, 70%);
+}
+.lastline{
+  margin: 15px;
+padding: 5px;
+  display:inline-flex;
+}
+.credits{
+  padding-top: 5px;
+
+}
+strong:hover{
+  color: hsl(178, 100%, 50%)
+}
+.attribution{
+  margin: 20px;
+  margin-left: 50px;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+
+}
