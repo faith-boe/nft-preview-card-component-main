@@ -46,15 +46,30 @@ p {
   }
     }
 
+.top-image {
+  background-image: url("../images/image-equilibrium.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:190px;
+  margin: 20px;
+  padding-top: 20px;
+
+}
+
 .cubix{
-    width: 85%;
-    margin: auto;
-    padding-top: 20px;
-    display: block;
-    justify-content: center;
+width:0;
+justify-content: center;
+
+
 }
 .cubix:hover {
-  filter:hue-rotate(300deg);
+  height: 200px;
+  width:69%;
+  background-size: cover;
+  background-color: Cyan;
+  filter: opacity(70%);
+  position: absolute;
 
 }
 
