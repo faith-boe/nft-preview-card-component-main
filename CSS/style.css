@@ -42,7 +42,8 @@ p {
   @media screen and (max-width: 739px){
 
   .card {
-    width: 80%;
+    width: 55%;
+    height:80%;
   }
     }
 
